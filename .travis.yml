@@ -1,4 +1,1 @@
 language: python
-python:
-  - "3.7"
- script: python multi_sessions/laba 3.py

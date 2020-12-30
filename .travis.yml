@@ -6,4 +6,4 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest laba 3.py
+  - pytest laba_3.py

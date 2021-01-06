@@ -295,12 +295,9 @@ int algoritm_vicherkivaniya(int h[9][9][9])
 					if (V[i][j][k] == h[i][j][k])
 					{
 						w = w + 1;
-						//cout << "nado rasmetki algoritm" << endl;
-						/*perehod_k_chislam(h, C);
-						postroenie(C);*/
+						
 					}
-					//return h[i][j][k];
-
+					
 				}
 			}
 		}
@@ -325,16 +322,7 @@ int algoritm_vicherkivaniya(int h[9][9][9])
 		algoritm_vicherkivaniya(h);
 
 	}
-	/*for (int i = 0; i < 9; i++)
-	{
-		for (int j = 0; j < 9; j++)
-		{
-			for (int k = 0; k < 9; k++)
-			{
-				return h[i][j][k];
-			}
-		}
-	}*/
+	
 }
 int poisk_rasmetki(int m[9][9][9])
 {
@@ -395,8 +383,7 @@ int poisk_rasmetki(int m[9][9][9])
 				}
 				if (l > 1)
 				{
-					/*for (int t = 0; t < 9; t++)
-					{*/
+					
 					for (int w = 0; w < 9; w++)
 					{
 						if (e > 1 && a[i][j][w] == 1)
@@ -408,18 +395,7 @@ int poisk_rasmetki(int m[9][9][9])
 						{
 							r = w;
 						}
-						/*for (int n = 0; n < 9; n++)
-						{//W[w] = E[t];
-							if (W[w] != E[n] && E[n] != 0)
-							{
-								a[i][j][w] = 0;
-							}
-							else if (W[w] = E[n] && E[n] != 0)
-							{
-								a[i][j][w] = 1;
-								q = w;
-							}
-						}*/
+						
 					}
 
 					if (proverka(a) == 0)
@@ -497,7 +473,7 @@ int poisk_rasmetki(int m[9][9][9])
 							}
 						}
 					}
-					/*}*/
+					
 
 				}
 			}

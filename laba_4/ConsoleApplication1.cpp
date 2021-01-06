@@ -6,6 +6,7 @@
 
 
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 void postroenie(int A[9][9])

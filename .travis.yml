@@ -1,4 +1,4 @@
-language: python
+language: python,cpp
 python:
   - "3.6"      # current default Python on Travis CI
 # command to install dependencies
@@ -7,3 +7,4 @@ install:
 # command to run tests
 script:
   python -m doctest -v laba_3/laba_3.py
+  cpp laba_4/ConsoleApplication1.cpp
